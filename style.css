@@ -1267,7 +1267,7 @@ font-family: Poppins-Regular;
 	
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:600px){
 
 
 #select{
@@ -1322,7 +1322,6 @@ grid-gap:20px;
 	
 .container1{
 	height:100vh;
-	width:320px;
 	background-image: url("slide-02.jpg");
     background-size:cover;
 	    position: relative;
@@ -1336,6 +1335,7 @@ grid-gap:20px;
 	display:flex;
 	background-color:white;
 	align-items:center;
+        justify-content:space-evenly;
 }
 
 .navbar .logo{
